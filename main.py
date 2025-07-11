@@ -66,4 +66,5 @@ def summarize_text(text, max_sentences=5):
     summary_sentences = heapq.nlargest(max_sentences, sentence_scores, key=sentence_scores.get)
     summary = " ".join(summary_sentences)
     return summary
-print ('hello')
+     #this is a good project
+     
